@@ -29,7 +29,7 @@ $class = ($i > 0 ) ? "display: none;" : "";
   </div>
   <div class="col-md-3">
    <br/><br/>
-   <button class="btn btn-success speak" data-index="<?php echo $i;?>" data-word="<?php echo $fwords[$i];?>"> <img src="images/mic.png" height="20"/> <?php echo $lang2;?></button>
+   <button class="btn btn-success speak" data-index="<?php echo $i;?>" data-word="<?php echo $fwords[$i];?>"> <img src="images/mic.png" height="20"/> Speak in <?php echo $lang2;?></button>
    <div style="display:none;" class="text-warning">Please try again.</div>
    </div>
 </div>
@@ -94,6 +94,7 @@ $("#lessonr0").fadeIn();
 function doTransition() {
 parent.slideUp();
 next.fadeIn();
+helpText.hide();
 }
 
 u = new SpeechSynthesisUtterance();
@@ -136,10 +137,10 @@ var commands = {
 var startListening = function() {
        
        // Turn on debugging for the console
+       annyang.init(commands);
        annyang.debug();
        // Initialize annyang with our commands
        annyang.setLanguage('<?php echo $langenc2;?>');
-       annyang.removeCommands();
        annyang.addCommands(commands);
        annyang.start({autoRestart: false});
        

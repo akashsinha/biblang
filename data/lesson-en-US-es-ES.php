@@ -14,7 +14,7 @@ $pics[3] = "images/lesson4.jpg";
 
 $matchings = array();
 $matchings[0] = "facebook,jesús,jesus";
-$matchings[1] = "es,s,ace,ssc,ass";
+$matchings[1] = "ed,EF,es,s,ace,ssc,ass";
 $matchings[2] = "nostro,metro,astro";
 $matchings[3] = "";
 

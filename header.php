@@ -37,7 +37,7 @@ $about = "About";
         <div class="cover-container">
           <div class="masthead clearfix">
             <div class="inner">
-              <a href="./"><h2 class="masthead-brand">Biblang</h2></a>
+              <a href="./"><h2 class="masthead-brand">Biblang <img src="images/logo.png" height="30"/></h2></a>
               <ul class="nav masthead-nav">
                 <li><a href="#"><?php echo $about;?></a></li>
                 <li><a href="#"><?php echo $name;?></a></li>

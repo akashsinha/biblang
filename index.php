@@ -5,7 +5,8 @@ session_destroy();
 }
 ?>
 <div class="inner cover">
-            <h1 class="cover-heading">Biblang</h1>
+           <img src="images/logo.png" height="120"/> 
+<h1 class="cover-heading">Biblang</h1>
            <blockquote class="blockquote">
             <p class="lead">
 Biblang helps you learn a new language using the words expressed by God in his book.           </p>
