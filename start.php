@@ -11,20 +11,13 @@
   <select class="form-control" name="lang1">
   <option value="">Select one</option>
   <option value="english">English</option>
-  <option value="french">French</option>
-  <option value="spanish">Spanish</option>
-  <option value="german">German</option>
-  <option value="mandarin">Mandarin</option>
   </select>
  </div>
  <div class="form-group">
   <label> Language you want to learn </label>
   <select class="form-control" name="lang2">
   <option value="">Select one</option>
-  <option value="english">English</option>
-  <option value="french">French</option>
   <option value="spanish">Spanish</option>
-  <option value="german">German</option>
   <option value="mandarin">Mandarin</option>
   </select>
  </div>
